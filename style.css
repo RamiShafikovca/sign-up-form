@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'freefontserif';
+    src: url('freefonts/FreeSerif.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.flex-cont {
+    display: flex;
+}
+
+.p-cont {
+    padding: 5em 2em;
+}
+
+.form-cont {
+}
+
+.footer {
+}
