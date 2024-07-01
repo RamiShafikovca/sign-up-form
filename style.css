@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 @font-face {
     font-family: 'freefontserif';
     src: url('freefonts/FreeSerif.woff') format('woff');
@@ -5,16 +9,28 @@
     font-style: normal;
 }
 
-.flex-cont {
+#flex-cont {
     display: flex;
+
 }
 
-.p-cont {
-    padding: 5em 2em;
+#para-cont {
+    width: max-content;
 }
 
-.form-cont {
+.top-cont {
+    background-color: gray;
 }
 
-.footer {
+.mid-cont {
+    flex-direction: column;
+    background-color: white;
+}
+
+#footer {
+    background-color: gray;
+}
+
+#rms {
+    max-height: 100vh;
 }

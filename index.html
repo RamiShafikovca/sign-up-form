@@ -6,20 +6,39 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="flex-cont">
-        <img src="images/rms.jpg" alt="Richard Stallman">
+    <div id="flex-cont">
+        <img src="img/rms.jpg" alt="Richard Stallman" id="rms">
+        <div id="para-cont">
+            <div class="top-cont">
+                <b><p>This is not an online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
+                <p>You <i>know</i> what to do.</p></b>
 
-        <div class="p-cont">
-            <b><p>This is not an online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
-            <p>You <i>know</i> what to do.</p></b>
-
-        <div class="form-cont">
-            <b><p>Let's do this!</p></b>
+            <div class="mid-cont">
+                <b><p>Let's do this!</p></b>
+                <div id="form-cont">
+                    <label for="first">FIRST NAME</label>
+                    <input type="text" name="first">
+                    <label for="last">LAST NAME</label>
+                    <input type="text" name="last">
+                </div>
+                <div id="form-cont">
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email">
+                    <label for="phone">PHONE NUMBER</label>
+                    <input type="number" name="phone">
+                </div>
+                <div id="form-cont">
+                    <label for="pass">PASSWORD</label>
+                    <input type="password" name="pass">
+                    <label for="confirm">CONFIRM PASSWORD</label>
+                    <input type="password" name="confirm">
+                </div>
+            </div>
+            <div id="footer">
+                <button>Create Account</button>
+                <p>Already have an account? <a href="">Log In</a></p>
+            </div>
         </div>
-
-        <div class="footer"></div>
-        </div>
-
     </div>
 </body>
 </html>
